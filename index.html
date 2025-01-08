@@ -7,16 +7,17 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <section>
+    <section class="reproductor de Musica">
       <h1>titulo</h1>
       <p>nombre</p>
-      <audio src="">
-        <source />
+      <audio id="cancion">
+        <source src="" type="audio/mpeg" />
       </audio>
+      <input type="range" value="0" id="progreso" />
       <div>
-        <button>atras</button>
-        <button>iniciar</button>
-        <button>siguiente</button>
+        <button class="atras">atras</button>
+        <button class="boton-reproducir-pausar">iniciar</button>
+        <button class="adelante">siguiente</button>
       </div>
     </section>
   </body>
