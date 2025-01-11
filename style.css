@@ -8,3 +8,11 @@
   box-sizing: border-box;
   font-family: "nunito", sans-serif;
 }
+
+body {
+  background: url(images/818fd8c76d8397b390dbf7ed513cd8e2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
