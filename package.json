@@ -1,0 +1,23 @@
+{
+  "name": "musicplayer_reproductordemusica",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jorgecarloslopez/musicPlayer_reproductorDeMusica.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jorgecarloslopez/musicPlayer_reproductorDeMusica/issues"
+  },
+  "homepage": "https://github.com/jorgecarloslopez/musicPlayer_reproductorDeMusica#readme",
+  "dependencies": {
+    "bootstrap-icons": "^1.11.3"
+  }
+}
