@@ -70,3 +70,13 @@ body > * {
   margin: 32px 0 24px;
   cursor: pointer;
 }
+#progreso::-webkit-appearance {
+  appearance: none;
+  -webkit-appearance: none;
+  background: rgba(165, 165, 165, 0, 4);
+  width: 18px;
+  aspect-radius: 1/1;
+  border-radius: 50%;
+  outline: 4px solid var(--blanco);
+  box-shadow: 0 6px 10px rgba(228, 228, 228, 03);
+}
