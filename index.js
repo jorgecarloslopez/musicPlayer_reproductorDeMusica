@@ -4,5 +4,8 @@ const nombreArtista = document.querySelector(".reproductor_Musica p");
 const progreso = document.getElementById("progreso");
 const cancion = document.getElementById("cancion");
 
+const iconoControl = document.getElementById("iconoControl");
+const botonReproducirPausar = document.getElementById(.controle button . boton-reproducir-pausar)
+
 const botonAtras = document.getElementById(".controles button.atras");
 const botonAdelante = document.getElementById(".controles button.adelante");
