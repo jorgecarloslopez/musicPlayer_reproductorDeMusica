@@ -19,3 +19,9 @@ const canciones = [
     fuente: "SSS",
   },
 ];
+let indiceCancionActual = 0;
+
+function actualizarInfoCancionn() {
+  tituloCancion.textContent = canciones[indiceCancionActual].titulo;
+}
+actualizarInfoCancion();
