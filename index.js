@@ -21,7 +21,28 @@ const canciones = [
 ];
 let indiceCancionActual = 0;
 
-function actualizarInfoCancionn() {
+function actualizarInfoCancion() {
   tituloCancion.textContent = canciones[indiceCancionActual].titulo;
+  nombreArtista.textContent = canciones[indiceCancionActual].nombre;
+  cancion.src = canciones[indiceCancionActual].fuente;
+  cancion.addEventListener("loadeddata", function () {});
 }
+botonReproducirPausar.addEventListener("click", reproducirPausar);
+
+function reproducirPausar() {
+  if (cancion.paused) {
+    reproducirCancion();
+  } else {
+    pausarCancion();
+  }
+}
+
+function reproducirCancion() {
+  cancion.play();
+}
+
+function pausarCancion() {
+  cancion.pause();
+}
+
 actualizarInfoCancion();
