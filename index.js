@@ -16,7 +16,7 @@ const canciones = [
   {
     titulo: "agony",
     nombre: "DG",
-    fuente: "music /agony remixFINAL MIX222.wav",
+    fuente: "music/agony remixFINAL MIX222.wav",
   },
 ];
 let indiceCancionActual = 0;
