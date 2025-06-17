@@ -65,5 +65,17 @@ function pausarCancion() {
   iconoControl.classList.remove("bi-pause-fill");
   iconoControl.classList.add("bi-play-fill");
 }
+cancion.addEventListener("timeupdate", function () {
+  if (canciones.paused) {
+    progreso.value = cancion.currentTime;
+  }
+});
+progreso.addEventListener("input", function () {
+  cancion.currentTime = progreso.value;
+});
+
+//   progreso.addEventListener('change',  ()=> {
+//     reproducirCancion()
+//   })
 
 actualizarInfoCancion();
