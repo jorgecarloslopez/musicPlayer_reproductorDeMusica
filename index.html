@@ -5,19 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MusicPlayer</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="img/play-circle-fill.svg" type="image/x-icon" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
   </head>
   <body>
-    <section>
+    <section class="reproductor-musica">
       <h1>titulo</h1>
       <p>nombre</p>
-      <audio src="">
-        <source />
+      <audio id="cancion">
+        <source src="" type="audio/mpeg" />
       </audio>
-      <div>
-        <button>atras</button>
-        <button>iniciar</button>
-        <button>siguiente</button>
+      <input type="range" value="0" id="progreso" />
+      <div class="controles">
+        <button class="atras control">
+          <i class="bi bi-rewind-fill"></i>
+        </button>
+        <button class="boton-reproducir-pausar iconoControl">
+          <i class="bi bi-play-circle-fill" id="iconoControl"></i>
+        </button>
+        <button class="adelante control">
+          <i class="bi bi-fast-forward-fill"></i>
+        </button>
       </div>
     </section>
+    <script src="index.js"></script>
   </body>
 </html>
